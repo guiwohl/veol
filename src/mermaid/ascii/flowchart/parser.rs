@@ -377,22 +377,58 @@ fn parse_dotted(s: &str) -> Option<(usize, EdgeArrow, Option<String>)> {
     while idx < bytes.len() && bytes[idx] == b'.' {
         idx += 1;
     }
-    if idx >= bytes.len() || bytes[idx] != b'-' {
+    if idx >= bytes.len() {
         return None;
     }
-    while idx < bytes.len() && bytes[idx] == b'-' {
+    if bytes[idx] == b'-' {
+        while idx < bytes.len() && bytes[idx] == b'-' {
+            idx += 1;
+        }
+        let (arrow, marker_len) = match bytes.get(idx).copied() {
+            Some(b'>') => (EdgeArrow::Closed, 1),
+            Some(b'o') => (EdgeArrow::Circle, 1),
+            Some(b'x') => (EdgeArrow::Cross, 1),
+            _ => (EdgeArrow::Open, 0),
+        };
+        let total = idx + marker_len;
+        let rest = &s[total..];
+        let (label, after_label) = read_pipe_label(rest);
+        return Some((total + after_label, arrow, label));
+    }
+    let label_start = idx;
+    while idx < bytes.len() {
+        if bytes[idx] == b'\n' {
+            return None;
+        }
+        if bytes[idx] == b'.' {
+            let mut probe = idx;
+            while probe < bytes.len() && bytes[probe] == b'.' {
+                probe += 1;
+            }
+            if probe < bytes.len() && bytes[probe] == b'-' {
+                let label_text = s[label_start..idx].trim();
+                let label = if label_text.is_empty() {
+                    None
+                } else {
+                    Some(label_text.to_string())
+                };
+                let mut close = probe;
+                while close < bytes.len() && bytes[close] == b'-' {
+                    close += 1;
+                }
+                let (arrow, marker_len) = match bytes.get(close).copied() {
+                    Some(b'>') => (EdgeArrow::Closed, 1),
+                    Some(b'o') => (EdgeArrow::Circle, 1),
+                    Some(b'x') => (EdgeArrow::Cross, 1),
+                    _ => (EdgeArrow::Open, 0),
+                };
+                let total = close + marker_len;
+                return Some((total, arrow, label));
+            }
+        }
         idx += 1;
     }
-    let (arrow, marker_len) = match bytes.get(idx).copied() {
-        Some(b'>') => (EdgeArrow::Closed, 1),
-        Some(b'o') => (EdgeArrow::Circle, 1),
-        Some(b'x') => (EdgeArrow::Cross, 1),
-        _ => (EdgeArrow::Open, 0),
-    };
-    let total = idx + marker_len;
-    let rest = &s[total..];
-    let (label, after_label) = read_pipe_label(rest);
-    Some((total + after_label, arrow, label))
+    None
 }
 
 fn parse_thick(s: &str) -> Option<(usize, EdgeArrow, Option<String>)> {
@@ -960,6 +996,36 @@ mod tests {
         let f = parse_ok("graph TD\nA -.-> B");
         assert_eq!(f.edges[0].style, EdgeStyle::Dotted);
         assert_eq!(f.edges[0].arrow, EdgeArrow::Closed);
+    }
+
+    #[test]
+    fn edge_dotted_inline_label() {
+        let f = parse_ok("graph TD\nA -.symlink.-> B");
+        assert_eq!(f.edges[0].style, EdgeStyle::Dotted);
+        assert_eq!(f.edges[0].arrow, EdgeArrow::Closed);
+        assert_eq!(f.edges[0].label, "symlink");
+    }
+
+    #[test]
+    fn edge_dotted_inline_label_spaced() {
+        let f = parse_ok("graph TD\nA -. hello world .-> B");
+        assert_eq!(f.edges[0].style, EdgeStyle::Dotted);
+        assert_eq!(f.edges[0].label, "hello world");
+    }
+
+    #[test]
+    fn edge_dotted_inline_label_with_dot() {
+        let f = parse_ok("graph TD\nA -.foo.bar.-> B");
+        assert_eq!(f.edges[0].style, EdgeStyle::Dotted);
+        assert_eq!(f.edges[0].label, "foo.bar");
+    }
+
+    #[test]
+    fn edge_dotted_inline_label_cross_marker() {
+        let f = parse_ok("graph TD\nA -.nope.-x B");
+        assert_eq!(f.edges[0].style, EdgeStyle::Dotted);
+        assert_eq!(f.edges[0].arrow, EdgeArrow::Cross);
+        assert_eq!(f.edges[0].label, "nope");
     }
 
     #[test]
