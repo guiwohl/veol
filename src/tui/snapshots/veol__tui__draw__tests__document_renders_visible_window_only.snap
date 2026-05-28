@@ -1,0 +1,9 @@
+---
+source: src/tui/draw.rs
+expression: render_buffer_text(&buf)
+---
+line 10             
+line 11             
+line 12             
+line 13             
+line 14

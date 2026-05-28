@@ -1,0 +1,15 @@
+---
+source: src/mermaid/ascii/flowchart/render.rs
+expression: "render_src(\"graph LR\\nsubgraph S1[Group]\\n  A --> B\\nend\")"
+---
+┌──────Group──────┐
+│                 │
+│                 │
+│                 │
+│ ┌───┐     ┌───┐ │
+│ │   │     │   │ │
+│ │ A ├─────► B │ │
+│ │   │     │   │ │
+│ └───┘     └───┘ │
+│                 │
+└─────────────────┘

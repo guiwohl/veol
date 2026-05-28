@@ -1,0 +1,30 @@
+[package]
+name = "veol"
+version = "0.1.0"
+edition = "2021"
+description = "Fast Markdown reading for the terminal."
+license = "MIT"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+ratatui = "0.29"
+crossterm = "0.28"
+pulldown-cmark = { version = "0.12", default-features = false }
+syntect = { version = "5", default-features = false, features = ["default-fancy"] }
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+directories = "5"
+anyhow = "1"
+thiserror = "1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+tracing-appender = "0.2"
+sha2 = "0.10"        # kept: mermaid/extract.rs cache_key (extract.rs preserved per spec)
+tempfile = "3"       # kept: config.rs atomic save + tests
+filetime = "0.2"     # kept: watcher.rs mtime polling
+indexmap = "2"
+unicode-width = "0.2"
+
+[dev-dependencies]
+insta = { version = "1", features = ["yaml"] }
+serial_test = "3"

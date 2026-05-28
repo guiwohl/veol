@@ -1,0 +1,11 @@
+---
+source: src/mermaid/ascii/timeline/render.rs
+expression: render(src)
+---
+┌─ 2000s ──────────────────────┐
+│                              │
+│  2001 ●─ Wikipedia launched  │
+│       │                      │
+│  2004 ●─ Facebook            │
+│                              │
+└──────────────────────────────┘

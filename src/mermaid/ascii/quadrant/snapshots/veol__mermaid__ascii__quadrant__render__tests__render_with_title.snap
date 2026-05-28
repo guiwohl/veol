@@ -1,0 +1,24 @@
+---
+source: src/mermaid/ascii/quadrant/render.rs
+expression: render(src)
+---
+                       Reach and engagement of campaigns
+
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                ───────────────────────────────┼──────────────────────────────
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │

@@ -1,0 +1,7 @@
+---
+source: src/markdown/layout.rs
+assertion_line: 1055
+expression: rendered
+---
+│ outer
+│ │ inner quote line

@@ -1,0 +1,14 @@
+---
+source: src/mermaid/ascii/state/render.rs
+assertion_line: 636
+expression: "render_ascii(\"stateDiagram-v2\\nA --> B\")"
+---
++---+
+| A |
++---+
+  |
+
+  v
++---+
+| B |
++---+

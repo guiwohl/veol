@@ -1,0 +1,8 @@
+---
+source: src/mermaid/ascii/block/render.rs
+assertion_line: 245
+expression: "render_src(\"block-beta\\nb(\\\"Round\\\")\")"
+---
+╭─────────╮
+│  Round  │
+╰─────────╯

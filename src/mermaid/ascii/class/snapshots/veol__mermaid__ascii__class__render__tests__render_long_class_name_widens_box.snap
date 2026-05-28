@@ -1,0 +1,11 @@
+---
+source: src/mermaid/ascii/class/render.rs
+assertion_line: 586
+expression: "render_s(\"classDiagram\\nclass AVeryLongClassName\")"
+---
+
+
+
+      ┌────────────────────┐
+      │ AVeryLongClassName │
+      └────────────────────┘

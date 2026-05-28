@@ -1,0 +1,7 @@
+---
+source: src/mermaid/ascii/journey/render.rs
+expression: render(src)
+---
+S
+─
+  Awful  ☹ 1 █░░░░ · Me

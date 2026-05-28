@@ -1,0 +1,7 @@
+---
+source: src/mermaid/ascii/block/render.rs
+expression: "render_src(\"block-beta\\ncolumns 3\\na[\\\"Hello\\\"] b(\\\"Round\\\") c((\\\"Circle\\\"))\")"
+---
+┌─────────┐  ╭─────────╮  ╭────────────╮
+│  Hello  │  │  Round  │  │(  Circle  )│
+└─────────┘  ╰─────────╯  ╰────────────╯

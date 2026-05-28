@@ -1,0 +1,19 @@
+---
+source: src/mermaid/ascii/xychart/render.rs
+assertion_line: 427
+expression: render_src_ascii(src)
+---
+2|                                           #
+ |                                           #
+ |                                           #
+ |                                           #
+ |                                           #
+ |                                           #
+1|              #                            #
+ |              #                            #
+ |              #                            #
+ |              #                            #
+ |              #                            #
+0|              #                            #
+ +----------------------------------------------------------
+                a                            b

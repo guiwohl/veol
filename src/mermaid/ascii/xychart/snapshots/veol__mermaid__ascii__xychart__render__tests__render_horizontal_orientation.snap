@@ -1,0 +1,8 @@
+---
+source: src/mermaid/ascii/xychart/render.rs
+assertion_line: 404
+expression: render_src(src)
+---
+ low │ ██████ 1
+ mid │ █████████████████████████████ 5
+high │ ████████████████████████████████████████████████████ 9

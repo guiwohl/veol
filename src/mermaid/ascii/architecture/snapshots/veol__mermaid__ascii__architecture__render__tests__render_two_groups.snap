@@ -1,0 +1,23 @@
+---
+source: src/mermaid/ascii/architecture/render.rs
+assertion_line: 473
+expression: render_src(src)
+---
+
+ ┌── * API ───┐
+ │            │
+ │ ┌────────┐ │
+ │ │ D DB   │ │
+ │ │        │ │
+ │ └────────┘ │
+ │            │
+ └────────────┘
+
+ ┌─ * External ──┐
+ │               │
+ │ ┌────────┐    │
+ │ │ @ Net  │    │
+ │ │        │    │
+ │ └────────┘    │
+ │               │
+ └───────────────┘

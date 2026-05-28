@@ -1,0 +1,10 @@
+---
+source: src/mermaid/ascii/flowchart/render.rs
+expression: "render_src(\"graph LR\\nA[line1<br>line2] --> B\")"
+---
+┌───────┐     ┌───┐
+│       │     │   │
+│ line1 │     │ B │
+│ line2 ├─────►   │
+│       │     │   │
+└───────┘     └───┘

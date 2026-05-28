@@ -1,0 +1,13 @@
+---
+source: src/markdown/layout.rs
+assertion_line: 1092
+expression: rendered
+---
+┌──────────────┬─────────────┐
+│ col1         │ col2        │
+├──────────────┼─────────────┤
+│ a long       │ another     │
+│ sentence     │ long-ish    │
+│ that must    │ piece       │
+│ wrap         │             │
+└──────────────┴─────────────┘

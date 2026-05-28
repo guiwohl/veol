@@ -1,0 +1,27 @@
+---
+source: src/tui/help.rs
+assertion_line: 214
+expression: render_buffer_text(&buf)
+---
+╭─  Help ───────────────────────────────────────╮
+│  q               quit                          │
+│  j / k / arrows  line scroll                   │
+│  Space / PgDn    page down                     │
+│  b / PgUp        page up                       │
+│  d / u           half-page down/up             │
+│  g / G           top / bottom                  │
+│  ] / [           next / prev heading           │
+│  / n N           search / next / prev          │
+│  t               table of contents             │
+│  Ctrl+E          file browser                  │
+│  Ctrl+T          theme switcher                │
+│  m               toggle mermaid render / source│
+│  f               toggle frontmatter            │
+│  r               reload                        │
+│  gx              open link externally          │
+│  ?               toggle this help              │
+│  Esc             close popup                   │
+│                                                │
+│                                                │
+│                 esc / ? close                  │
+╰────────────────────────────────────────────────╯

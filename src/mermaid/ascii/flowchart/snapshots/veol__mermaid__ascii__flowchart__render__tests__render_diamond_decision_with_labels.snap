@@ -1,0 +1,17 @@
+---
+source: src/mermaid/ascii/flowchart/render.rs
+expression: "render_src(\"graph LR\\nA{Decide} -->|yes| B\\nA -->|no| C\\nB --> D\\nC --> D\")"
+---
+╱────────╲     ┌───┐     ┌───┐
+│        │     │   │     │   │
+│ Decide ├─yes─► B ├──┼──► D │
+│        │     │   │  │  │   │
+╲────┬───╱     └───┘  │  └───┘
+     │                │
+     │           ┌────┘
+    no           │
+     │         ┌─┴─┐
+     │         │   │
+     └─────────► C │
+               │   │
+               └───┘

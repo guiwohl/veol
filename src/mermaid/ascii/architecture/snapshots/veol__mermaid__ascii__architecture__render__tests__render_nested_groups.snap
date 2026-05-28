@@ -1,0 +1,18 @@
+---
+source: src/mermaid/ascii/architecture/render.rs
+assertion_line: 479
+expression: render_src(src)
+---
+
+ ┌─── * Outer ────┐
+ │                │
+ │ ┌─ * Inner ──┐ │
+ │ │            │ │
+ │ │ ┌────────┐ │ │
+ │ │ │ D DB   │ │ │
+ │ │ │        │ │ │
+ │ │ └────────┘ │ │
+ │ │            │ │
+ │ └────────────┘ │
+ │                │
+ └────────────────┘

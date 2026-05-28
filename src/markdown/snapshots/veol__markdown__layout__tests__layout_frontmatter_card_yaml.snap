@@ -1,0 +1,12 @@
+---
+source: src/markdown/layout.rs
+assertion_line: 1113
+expression: rendered
+---
+┌────────────────────────────────────────────────┐
+│  title    Veol — Spec                          │
+│  author   guiwohl                              │
+│  date     2026-05-26                           │
+└────────────────────────────────────────────────┘
+
+Body

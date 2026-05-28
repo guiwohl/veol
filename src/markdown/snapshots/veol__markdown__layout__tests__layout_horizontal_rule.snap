@@ -1,0 +1,9 @@
+---
+source: src/markdown/layout.rs
+assertion_line: 1099
+expression: rendered
+---
+foo
+────────────────────
+
+bar

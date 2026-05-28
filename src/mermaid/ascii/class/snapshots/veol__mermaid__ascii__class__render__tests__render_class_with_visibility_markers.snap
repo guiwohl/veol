@@ -1,0 +1,16 @@
+---
+source: src/mermaid/ascii/class/render.rs
+assertion_line: 510
+expression: "render_s(\"classDiagram\\nclass Foo {\\n  +pub\\n  -priv\\n  #prot\\n  ~pkg\\n}\")"
+---
+
+
+
+      ┌───────┐
+      │  Foo  │
+      ├───────┤
+      │ +pub  │
+      │ -priv │
+      │ #prot │
+      │ ~pkg  │
+      └───────┘

@@ -1,0 +1,7 @@
+---
+source: src/markdown/layout.rs
+assertion_line: 1062
+expression: rendered
+---
+• first
+• second

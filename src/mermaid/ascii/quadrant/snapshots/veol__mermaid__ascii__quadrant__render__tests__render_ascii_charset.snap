@@ -1,0 +1,26 @@
+---
+source: src/mermaid/ascii/quadrant/render.rs
+expression: render_ascii(src)
+---
+                                   ASCII Mode
+
+           High                                |
+                              Q2               |             Q1
+                                               |
+                                               |
+                                               |
+                                               |           * A
+                                               |
+                                               |
+                                               |
+                -------------------------------+------------------------------
+                              Q3               |             Q4
+                                               |
+                                               |
+                                               |
+                            * B                |
+                                               |
+                                               |
+            Low                                |
+
+                Low                                                       High

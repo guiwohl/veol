@@ -1,0 +1,31 @@
+# Rust
+target/
+*.rs.bk
+Cargo.lock.bak
+
+# Veol runtime
+.cache/
+*.log
+/cache/
+
+# Editor + OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Insta pending snapshots — review with `cargo insta review`, then commit
+*.snap.new
+*.pending-snap
+
+# Claude Code transient
+.claude/worktrees/
+.claude/agents-*.json
+.claude/sessions/
+
+# Local config / secrets
+.env
+.env.local
+*.local.toml
+secrets.toml

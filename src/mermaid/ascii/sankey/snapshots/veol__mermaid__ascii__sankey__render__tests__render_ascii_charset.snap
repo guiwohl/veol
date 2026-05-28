@@ -1,0 +1,9 @@
+---
+source: src/mermaid/ascii/sankey/render.rs
+expression: render_ascii_str(src)
+---
+Sankey
+
+A  ------------>  B  (10)
+A  ------      >  C  ( 5)
+   +- total: 15

@@ -1,0 +1,5 @@
+---
+source: src/tui/draw.rs
+expression: render_buffer_text(&buf)
+---
+bold italic strike and a link.

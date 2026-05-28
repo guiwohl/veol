@@ -1,0 +1,14 @@
+---
+source: src/mermaid/ascii/architecture/render.rs
+assertion_line: 497
+expression: render_src_ascii(src)
+---
+
+ +------- [C] API ---------+
+ |                         |
+ | +--------+  +---------+ |
+ | |[DB] DB |  |[S] Ser… | |
+ | |        |  |         | |
+ | +--------+  +---------+ |
+ |                         |
+ +-------------------------+

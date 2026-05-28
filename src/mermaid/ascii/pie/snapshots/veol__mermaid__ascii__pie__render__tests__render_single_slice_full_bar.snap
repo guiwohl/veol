@@ -1,0 +1,5 @@
+---
+source: src/mermaid/ascii/pie/render.rs
+expression: render(src)
+---
+Only  █████████████████████████████████████████████  100.0%

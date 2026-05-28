@@ -1,0 +1,21 @@
+---
+source: src/mermaid/ascii/flowchart/render.rs
+expression: "render_src(\"graph LR\\nsubgraph S1[Outer]\\n  subgraph S2[Inner]\\n    A --> B\\n  end\\nend\")"
+---
+┌────────Outer────────┐
+│                     │
+│                     │
+│                     │
+│ ┌──────Inner──────┐ │
+│ │                 │ │
+│ │                 │ │
+│ │                 │ │
+│ │ ┌───┐     ┌───┐ │ │
+│ │ │   │     │   │ │ │
+│ │ │ A ├─────► B │ │ │
+│ │ │   │     │   │ │ │
+│ │ └───┘     └───┘ │ │
+│ │                 │ │
+│ └─────────────────┘ │
+│                     │
+└─────────────────────┘

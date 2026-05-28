@@ -1,0 +1,10 @@
+---
+source: src/mermaid/ascii/journey/render.rs
+expression: render_ascii(src)
+---
+ASCII Mode
+
+Morning
+-------
+  Wake up  :| 3 ###.. * Me
+  Coffee   :) 5 ##### * Me, Spouse

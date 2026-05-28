@@ -1,0 +1,11 @@
+---
+source: src/mermaid/ascii/class/render.rs
+assertion_line: 524
+expression: "render_s(\"classDiagram\\nclass List~T~\")"
+---
+
+
+
+      ┌─────────┐
+      │ List<T> │
+      └─────────┘

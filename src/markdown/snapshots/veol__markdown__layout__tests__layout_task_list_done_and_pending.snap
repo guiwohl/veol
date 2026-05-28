@@ -1,0 +1,7 @@
+---
+source: src/markdown/layout.rs
+assertion_line: 1076
+expression: rendered
+---
+• [x] done thing
+• [ ] pending thing

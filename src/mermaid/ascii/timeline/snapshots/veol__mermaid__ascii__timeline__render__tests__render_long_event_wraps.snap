@@ -1,0 +1,9 @@
+---
+source: src/mermaid/ascii/timeline/render.rs
+expression: render(src)
+---
+┌─ S ────────────────────────────────────────────────────────────┐
+│                                                                │
+│  2001 ●─ This is a really long event description that goes on  │
+│                                                                │
+└────────────────────────────────────────────────────────────────┘

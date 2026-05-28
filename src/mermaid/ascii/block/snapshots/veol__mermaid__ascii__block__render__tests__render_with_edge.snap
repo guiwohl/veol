@@ -1,0 +1,10 @@
+---
+source: src/mermaid/ascii/block/render.rs
+assertion_line: 260
+expression: "render_src(\"block-beta\\na b\\na --> b\")"
+---
+┌─────┐  ┌─────┐
+│  a  │  │  b  │
+└─────┘  └─────┘
+
+a ─► b

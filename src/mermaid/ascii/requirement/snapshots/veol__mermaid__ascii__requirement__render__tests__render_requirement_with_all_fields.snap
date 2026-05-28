@@ -1,0 +1,14 @@
+---
+source: src/mermaid/ascii/requirement/render.rs
+assertion_line: 460
+expression: "render_src(\"requirementDiagram\\nrequirement test_req {\\n  id: 1\\n  text: the test text.\\n  risk: high\\n  verifymethod: test\\n}\")"
+---
+┌────────────────────────┐
+│    <<requirement>>     │
+│       test_req         │
+├────────────────────────┤
+│ id: 1                  │
+│ text: the test text.   │
+│ risk: High             │
+│ verifymethod: Test     │
+└────────────────────────┘

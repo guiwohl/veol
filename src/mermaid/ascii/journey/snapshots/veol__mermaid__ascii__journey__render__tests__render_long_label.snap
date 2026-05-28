@@ -1,0 +1,8 @@
+---
+source: src/mermaid/ascii/journey/render.rs
+expression: render(src)
+---
+S
+─
+  A really long label describing the step in detail  :| 3 ███░░ · Me
+  Short                                              ☺ 5 █████ · Me

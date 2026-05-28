@@ -1,0 +1,20 @@
+---
+source: src/mermaid/ascii/timeline/render.rs
+expression: render(src)
+---
+History of Tech
+
+┌─ 2000s ──────────────────────┐
+│                              │
+│  2001 ●─ Wikipedia launched  │
+│       │                      │
+│  2004 ●─ Facebook            │
+│                              │
+└──────────────────────────────┘
+┌─ 2010s ──────────────────────┐
+│                              │
+│  2010 ●─ Instagram           │
+│       │                      │
+│  2012 ●─ Pinterest           │
+│                              │
+└──────────────────────────────┘

@@ -1,0 +1,21 @@
+---
+source: src/mermaid/ascii/requirement/render.rs
+assertion_line: 481
+expression: "render_src(\"requirementDiagram\\nrequirement a {\\n  id: 1\\n}\\nrequirement b {\\n  id: 2\\n}\\nrequirement c {\\n  id: 3\\n}\\na - contains -> b\\nb - contains -> c\")"
+---
+┌───────────────────┐            ┌───────────────────┐
+│ <<requirement>>   │ contains   │ <<requirement>>   │
+│        a          │───────────▷│        b          │
+├───────────────────┤            ├───────────────────┤
+│ id: 1             │            │ id: 2             │
+└───────────────────┘            └───────────────────┘
+                                           │
+          ┌───────────contains─────────────┘
+          │
+          ▼
+┌───────────────────┐
+│ <<requirement>>   │
+│        c          │
+├───────────────────┤
+│ id: 3             │
+└───────────────────┘

@@ -1,0 +1,6 @@
+---
+source: src/markdown/layout.rs
+assertion_line: 1005
+expression: rendered
+---
+bold italic strike and a link.

@@ -1,0 +1,20 @@
+---
+source: src/mermaid/ascii/state/render.rs
+assertion_line: 586
+expression: "render(\"stateDiagram-v2\\nA --> B\\nB --> C\")"
+---
+╭───╮
+│ A │
+╰───╯
+  │
+
+  ▼
+╭───╮
+│ B │
+╰───╯
+  │
+
+  ▼
+╭───╮
+│ C │
+╰───╯

@@ -1,0 +1,13 @@
+---
+source: src/tui/draw.rs
+expression: render_buffer_text(&buf)
+---
+                                                            
+                                                            
+                                                            
+                            Veol                            
+                            ────                            
+          Fast Markdown reading for the terminal.           
+                                                            
+       Pass a .md file, or pipe markdown from stdin.        
+       Ctrl+E browse · Ctrl+T theme · ? help · q quit

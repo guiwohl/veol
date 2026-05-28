@@ -1,0 +1,24 @@
+---
+source: src/mermaid/ascii/quadrant/render.rs
+expression: render(src)
+---
+High Engagement                                │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                ───────────────────────────────┼──────────────────────────────
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+ Low Engagement                                │
+
+                Low Reach                                           High Reach

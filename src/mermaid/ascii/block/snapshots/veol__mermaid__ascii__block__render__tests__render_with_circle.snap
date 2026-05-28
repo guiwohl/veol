@@ -1,0 +1,7 @@
+---
+source: src/mermaid/ascii/block/render.rs
+expression: "render_src(\"block-beta\\nc((\\\"Center\\\"))\")"
+---
+╭────────────╮
+│(  Center  )│
+╰────────────╯

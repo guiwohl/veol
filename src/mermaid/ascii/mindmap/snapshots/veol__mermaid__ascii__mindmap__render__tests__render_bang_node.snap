@@ -1,0 +1,6 @@
+---
+source: src/mermaid/ascii/mindmap/render.rs
+expression: render(src)
+---
+· root
+└── ❗ Important

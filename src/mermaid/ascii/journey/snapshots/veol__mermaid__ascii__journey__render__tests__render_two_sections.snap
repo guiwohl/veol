@@ -1,0 +1,15 @@
+---
+source: src/mermaid/ascii/journey/render.rs
+expression: render(src)
+---
+My Workday
+
+Morning
+───────
+  Wake up      :| 3 ███░░ · Me
+  Make coffee  ☺ 5 █████ · Me, Spouse
+
+Work
+────
+  Commute  ☹ 1 █░░░░ · Me
+  Code     ☺ 5 █████ · Me, Boss

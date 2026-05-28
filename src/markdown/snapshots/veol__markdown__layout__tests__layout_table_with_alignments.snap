@@ -1,0 +1,11 @@
+---
+source: src/markdown/layout.rs
+expression: rendered
+---
+┌────┬────┬─────┐
+│ L  │ C  │   R │
+├────┼────┼─────┤
+│ a  │ bb │ ccc │
+├────┼────┼─────┤
+│ dd │ e  │   f │
+└────┴────┴─────┘

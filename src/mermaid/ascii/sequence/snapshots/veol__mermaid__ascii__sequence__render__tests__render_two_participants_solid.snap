@@ -1,0 +1,10 @@
+---
+source: src/mermaid/ascii/sequence/render.rs
+expression: out
+---
+┌───┐     ┌───┐
+│ A │     │ B │
+└─┬─┘     └─┬─┘
+  │ hello   │
+  ├────────►│
+  │         │

@@ -1,0 +1,8 @@
+---
+source: src/mermaid/ascii/pie/render.rs
+expression: render(src)
+---
+Distribution
+
+A  █████████████████████████████░░░░░░░░░░░░░░░░░░░   60.0%
+B  ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   40.0%

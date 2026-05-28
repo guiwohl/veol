@@ -1,0 +1,14 @@
+---
+source: src/mermaid/ascii/gitgraph/render.rs
+assertion_line: 561
+expression: render(src)
+---
+  main    feature
+
+    ●
+    │
+    │
+    │        ●
+    │     ╱
+    │  ╱
+    ●

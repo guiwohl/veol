@@ -1,0 +1,10 @@
+---
+source: src/mermaid/ascii/er/render.rs
+expression: "render_src(\"erDiagram\\nUSER {\\n  int id PK\\n}\\nUSER ||--o{ POST : x\")"
+---
+┌─────────────┐          ┌────────┐
+│    USER     │          │  POST  │
+├─────────────┤    x     ├────────┤
+│ int id PK   ─┃────────o<        │
+│             │          └────────┘
+└─────────────┘

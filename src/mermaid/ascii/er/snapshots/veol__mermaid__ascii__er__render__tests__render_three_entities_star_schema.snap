@@ -1,0 +1,10 @@
+---
+source: src/mermaid/ascii/er/render.rs
+expression: "render_src(\"erDiagram\\nUSER ||--o{ POST : has\\nUSER ||--o{ COMMENT : writes\\nPOST ||--o{ COMMENT : on\")"
+---
+┌────────┐          ┌───────────┐          ┌────────┐
+│  USER  │          │  COMMENT  │          │  POST  │
+├────────┤ writes   ├───────────┤   on     ├────────┤
+│        ─┃────────o<           o<─────────┃        │
+└────────┘         │└────has────┘│         └────────┘
+                   └─────────────┘

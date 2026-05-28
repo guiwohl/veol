@@ -1,0 +1,14 @@
+---
+source: src/tui/toc.rs
+expression: render_buffer_text(&buf)
+---
+╭─  Table of Contents ────────────────╮
+│                                      │
+│                                      │
+│                                      │
+│            (no headings)             │
+│                                      │
+│                                      │
+│                                      │
+│    ↑↓ navigate  ⏎ jump  esc close    │
+╰──────────────────────────────────────╯

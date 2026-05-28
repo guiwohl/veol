@@ -1,0 +1,11 @@
+---
+source: src/mermaid/ascii/requirement/render.rs
+assertion_line: 474
+expression: "render_src(\"requirementDiagram\\nrequirement r1 {\\n  id: 1\\n}\\nelement e1 {\\n  type: doc\\n}\\ne1 - satisfies -> r1\")"
+---
+┌───────────────────┐            ┌───────────────┐
+│ <<requirement>>   │ satisfies  │ <<element>>   │
+│        r1         │◁───────────│      e1       │
+├───────────────────┤            ├───────────────┤
+│ id: 1             │            │ type: doc     │
+└───────────────────┘            └───────────────┘

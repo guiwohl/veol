@@ -1,0 +1,8 @@
+---
+source: src/mermaid/ascii/pie/render.rs
+expression: render_ascii(src)
+---
+ASCII Mode
+
+Alpha  ##########################..................   60.0%
+Beta   ##################..........................   40.0%

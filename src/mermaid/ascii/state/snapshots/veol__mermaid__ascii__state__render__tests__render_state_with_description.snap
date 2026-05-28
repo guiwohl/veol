@@ -1,0 +1,15 @@
+---
+source: src/mermaid/ascii/state/render.rs
+assertion_line: 591
+expression: "render(\"stateDiagram-v2\\nIdle\\nIdle : waiting for input\\nIdle --> Running\")"
+---
+╭───────────────────╮
+│       Idle        │
+│ waiting for input │
+╰───────────────────╯
+          │
+
+          ▼
+     ╭─────────╮
+     │ Running │
+     ╰─────────╯

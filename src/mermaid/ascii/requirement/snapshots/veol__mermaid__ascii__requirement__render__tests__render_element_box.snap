@@ -1,0 +1,11 @@
+---
+source: src/mermaid/ascii/requirement/render.rs
+assertion_line: 467
+expression: "render_src(\"requirementDiagram\\nelement test_entity {\\n  type: simulation\\n}\")"
+---
+┌────────────────────┐
+│    <<element>>     │
+│    test_entity     │
+├────────────────────┤
+│ type: simulation   │
+└────────────────────┘

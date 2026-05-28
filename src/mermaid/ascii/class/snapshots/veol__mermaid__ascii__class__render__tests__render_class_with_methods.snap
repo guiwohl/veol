@@ -1,0 +1,14 @@
+---
+source: src/mermaid/ascii/class/render.rs
+assertion_line: 496
+expression: "render_s(\"classDiagram\\nclass Foo {\\n  +greet()\\n  +shout() String\\n}\")"
+---
+
+
+
+      ┌──────────────────┐
+      │       Foo        │
+      ├──────────────────┤
+      │ +greet()         │
+      │ +shout(): String │
+      └──────────────────┘

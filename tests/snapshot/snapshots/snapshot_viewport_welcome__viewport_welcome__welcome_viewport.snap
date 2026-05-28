@@ -1,0 +1,10 @@
+---
+source: tests/snapshot/viewport_welcome.rs
+assertion_line: 7
+expression: rendered
+---
+Veol — Fast Markdown reading for the terminal.
+
+Open a file:  veol README.md
+Pipe stdin:   cat NOTES.md | veol -
+Help:         veol --help

@@ -1,0 +1,9 @@
+---
+source: src/mermaid/ascii/er/render.rs
+expression: "render_src(\"erDiagram\\nA }o--o{ B : x\")"
+---
+┌─────┐          ┌─────┐
+│  A  │          │  B  │
+├─────┤    x     ├─────┤
+│     >o────────o<     │
+└─────┘          └─────┘

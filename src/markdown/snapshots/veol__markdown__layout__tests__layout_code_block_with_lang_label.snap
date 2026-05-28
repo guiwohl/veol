@@ -1,0 +1,6 @@
+---
+source: src/markdown/layout.rs
+expression: rendered
+---
+ rust                         
+fn main() {}

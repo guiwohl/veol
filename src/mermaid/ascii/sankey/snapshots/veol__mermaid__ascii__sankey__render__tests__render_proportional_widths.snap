@@ -1,0 +1,12 @@
+---
+source: src/mermaid/ascii/sankey/render.rs
+expression: render_str(src)
+---
+Sankey
+
+Agricultural 'waste'  ─────       ►  Bio-conversion  (124.7)
+Bio-conversion        ─           ►  Liquid          (  0.6)
+Bio-conversion        ─           ►  Losses          ( 26.9)
+Bio-conversion        ────────────►  Solid           (280.3)
+Bio-conversion        ───         ►  Gas             ( 81.1)
+                      └─ total: 513.7

@@ -1,0 +1,9 @@
+---
+source: src/mermaid/ascii/er/render.rs
+expression: "render_ascii(\"erDiagram\\nUSER ||--o{ POST : has\")"
+---
++--------+          +--------+
+|  USER  |          |  POST  |
++--------+   has    +--------+
+|        -|--------o<        |
++--------+          +--------+

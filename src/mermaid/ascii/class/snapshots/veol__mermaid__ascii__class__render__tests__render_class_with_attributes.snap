@@ -1,0 +1,14 @@
+---
+source: src/mermaid/ascii/class/render.rs
+assertion_line: 489
+expression: "render_s(\"classDiagram\\nclass Foo {\\n  +String name\\n  -int age\\n}\")"
+---
+
+
+
+      ┌──────────────┐
+      │     Foo      │
+      ├──────────────┤
+      │ +String name │
+      │ -int age     │
+      └──────────────┘

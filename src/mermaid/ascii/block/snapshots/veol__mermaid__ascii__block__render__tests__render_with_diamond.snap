@@ -1,0 +1,8 @@
+---
+source: src/mermaid/ascii/block/render.rs
+assertion_line: 250
+expression: "render_src(\"block-beta\\nd{\\\"Decide\\\"}\")"
+---
+╱──────────╲
+│  Decide  │
+╲──────────╱

@@ -1,0 +1,11 @@
+---
+source: src/mermaid/ascii/timeline/render.rs
+expression: render(src)
+---
+History of Tech
+
+┌─ 2000s ─────────────┐
+│                     │
+│  2001 ●─ Wikipedia  │
+│                     │
+└─────────────────────┘

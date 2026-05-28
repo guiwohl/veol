@@ -1,0 +1,14 @@
+---
+source: src/mermaid/ascii/sequence/render.rs
+expression: out
+---
+┌───┐     ┌───┐
+│ A │     │ B │
+└─┬─┘     └─┬─┘
+  │ start   │
+  ├────────►│
+┌─ loop: every tick ──┐
+  │ ping    │
+  │◄────────┤
+└─┴─────────┴─────────┘
+  │         │

@@ -1,0 +1,8 @@
+---
+source: src/markdown/layout.rs
+assertion_line: 997
+expression: rendered
+---
+the quick brown fox 
+jumps over the lazy 
+dog

@@ -1,0 +1,22 @@
+---
+source: src/mermaid/ascii/state/render.rs
+assertion_line: 659
+expression: "render(\"stateDiagram-v2\\nstate F <<fork>>\\nstate J <<join>>\\nA --> F\\nF --> B\\nF --> C\\nB --> J\\nC --> J\")"
+---
+    ╭───╮
+    │ A │
+    ╰───╯
+      │
+
+      ▼
+   ▆▆▆▆▆▆▆
+      │
+  ╭───╰────╮
+  ▼        ▼
+╭───╮    ╭───╮
+│ B │    │ C │
+╰───╯    ╰───╯
+  │        │
+  ╰───╭────╯
+      ▼
+   ▆▆▆▆▆▆▆

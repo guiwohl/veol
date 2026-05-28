@@ -1,0 +1,13 @@
+---
+source: src/mermaid/ascii/timeline/render.rs
+expression: render_ascii(src)
+---
+T
+
++- S ------------+
+|                |
+|  2001 *- E1    |
+|       |        |
+|  2004 *- E2    |
+|                |
++----------------+

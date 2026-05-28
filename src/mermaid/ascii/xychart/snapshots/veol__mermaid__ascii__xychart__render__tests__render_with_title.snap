@@ -1,0 +1,21 @@
+---
+source: src/mermaid/ascii/xychart/render.rs
+assertion_line: 398
+expression: render_src(src)
+---
+My Chart
+
+30│                                               █
+  │                                               █
+  │                                               █
+  │                                               █
+  │                            █                  █
+  │                            █                  █
+15│                            █                  █
+  │                            █                  █
+  │         █                  █                  █
+  │         █                  █                  █
+  │         █                  █                  █
+ 0│         █                  █                  █
+  └─────────────────────────────────────────────────────────
+            a                  b                  c

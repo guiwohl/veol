@@ -1,0 +1,10 @@
+---
+source: src/mermaid/ascii/timeline/render.rs
+expression: render(src)
+---
+┌─ 2000s ────────────┐
+│                    │
+│  2004 ●─ Facebook  │
+│          Gmail     │
+│                    │
+└────────────────────┘

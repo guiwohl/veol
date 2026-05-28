@@ -1,0 +1,22 @@
+---
+source: src/mermaid/ascii/quadrant/render.rs
+expression: render(src)
+---
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                  ● Campaign A │
+                                               │
+                ───────────────────────────────┼──────────────────────────────
+                                               │
+                                               │
+                                               │
+                                           ● Campaign B
+                                               │
+                                               │
+                                               │
+                                               │

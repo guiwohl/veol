@@ -1,0 +1,7 @@
+---
+source: src/mermaid/ascii/mindmap/render.rs
+expression: render(src)
+---
+● mindmap
+├── · A
+└── · B

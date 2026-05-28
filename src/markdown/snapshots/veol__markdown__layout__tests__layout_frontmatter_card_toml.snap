@@ -1,0 +1,11 @@
+---
+source: src/markdown/layout.rs
+assertion_line: 1120
+expression: rendered
+---
+┌────────────────────────────────────────────────┐
+│  author   guiwohl                              │
+│  title    Veol                                 │
+└────────────────────────────────────────────────┘
+
+Body

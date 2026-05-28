@@ -1,0 +1,26 @@
+---
+source: src/mermaid/ascii/quadrant/render.rs
+expression: render(src)
+---
+                       Reach and engagement of campaigns
+
+High Engagement                                │
+                        Need to promote        │      We should expand
+                                               │
+                                               │
+                                               │
+                                               │   ● Campaign C
+                                               │
+                                  ● Campaign A │
+                                               │
+                ───────────────────────────────┼──────────────────────────────
+                          Re-evaluate          │       May be improved
+                                               │                ● Campaign D
+                                               │
+                                           ● Campaign B
+                                               │
+                                               │
+                                               │
+ Low Engagement                                │
+
+                Low Reach                                           High Reach

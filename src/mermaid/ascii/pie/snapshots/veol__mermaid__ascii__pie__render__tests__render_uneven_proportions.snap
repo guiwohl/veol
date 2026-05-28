@@ -1,0 +1,6 @@
+---
+source: src/mermaid/ascii/pie/render.rs
+expression: render(src)
+---
+Big    ██████████████████████████████████████████░░   95.0%
+Small  ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    5.0%

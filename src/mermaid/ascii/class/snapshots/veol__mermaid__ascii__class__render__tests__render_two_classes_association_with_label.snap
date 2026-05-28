@@ -1,0 +1,11 @@
+---
+source: src/mermaid/ascii/class/render.rs
+assertion_line: 550
+expression: "render_s(\"classDiagram\\nclass A\\nclass B\\nA --> B : uses\")"
+---
+
+
+
+      ┌───┐uses  ┌───┐
+      │ A │─────◁│ B │
+      └───┘      └───┘

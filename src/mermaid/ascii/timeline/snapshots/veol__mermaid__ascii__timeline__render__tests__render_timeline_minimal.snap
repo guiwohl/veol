@@ -1,0 +1,9 @@
+---
+source: src/mermaid/ascii/timeline/render.rs
+expression: render(src)
+---
+┌─ S ────────────┐
+│                │
+│  2001 ●─ E1    │
+│                │
+└────────────────┘

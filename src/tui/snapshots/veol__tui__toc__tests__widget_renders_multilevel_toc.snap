@@ -1,0 +1,14 @@
+---
+source: src/tui/toc.rs
+expression: render_buffer_text(&buf)
+---
+╭─  Table of Contents ────────────────╮
+│ # Alpha                              │
+│   ## Beta                            │
+│     ### Gamma                        │
+│   ## Delta                           │
+│                                      │
+│                                      │
+│                                      │
+│    ↑↓ navigate  ⏎ jump  esc close    │
+╰──────────────────────────────────────╯

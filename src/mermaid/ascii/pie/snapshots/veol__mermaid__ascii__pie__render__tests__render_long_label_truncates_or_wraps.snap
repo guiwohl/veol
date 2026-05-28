@@ -1,0 +1,6 @@
+---
+source: src/mermaid/ascii/pie/render.rs
+expression: render(src)
+---
+This is a really re…  ████████████████████░░░░░░░░░   70.0%
+Short                 █████████░░░░░░░░░░░░░░░░░░░░   30.0%

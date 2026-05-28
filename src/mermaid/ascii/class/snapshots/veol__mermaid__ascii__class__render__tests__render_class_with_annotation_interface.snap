@@ -1,0 +1,14 @@
+---
+source: src/mermaid/ascii/class/render.rs
+assertion_line: 517
+expression: "render_s(\"classDiagram\\nclass Foo {\\n  <<interface>>\\n  +do()\\n}\")"
+---
+
+
+
+      ┌───────────────┐
+      │ <<interface>> │
+      │      Foo      │
+      ├───────────────┤
+      │ +do()         │
+      └───────────────┘

@@ -1,0 +1,22 @@
+---
+source: src/mermaid/ascii/quadrant/render.rs
+expression: render(src)
+---
+                                               │
+                        Need to promote        │      We should expand
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                ───────────────────────────────┼──────────────────────────────
+                          Re-evaluate          │       May be improved
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │
+                                               │

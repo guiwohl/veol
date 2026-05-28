@@ -1,0 +1,17 @@
+---
+source: src/mermaid/ascii/class/render.rs
+assertion_line: 579
+expression: "render_s(\"classDiagram\\nclass A\\nclass B\\nclass C\\nclass D\\nA <|-- B\\nA <|-- C\\nB <|-- D\\nC <|-- D\")"
+---
+
+
+
+      ┌───┐      ┌───┐
+      │ A │◁─────│ B │
+      └───┘      └───┘
+        △          △
+        │          │
+        │          │
+      ┌───┐      ┌───┐
+      │ C │◁─────│ D │
+      └───┘      └───┘

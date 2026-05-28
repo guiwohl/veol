@@ -1,0 +1,7 @@
+---
+source: src/markdown/layout.rs
+assertion_line: 1106
+expression: rendered
+---
+see[^1].
+[^1]: the note body here
