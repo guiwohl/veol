@@ -718,5 +718,3 @@ The statusbar at the bottom of the screen should show:
 If you reached here by pressing `G`, scrolling, or paging — congratulations, you've exercised the full reader surface. Press `g` to jump back to the top, or `q` to quit.
 
 The shortest line.
-
-A
